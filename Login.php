@@ -13,7 +13,7 @@
                 <div class="col-4" style="margin:250px ">
                     <form action="Login.php" method="POST">
                         <div class="mt-3">
-                            <h1 style="color:Crimson">iManager</h1>
+                            <h1 style="color:Crimson" ><i>iManager</i></h1>
                             <input type="text" class="form-control" name="email" placeholder="Your Email">
 
                         </div>
