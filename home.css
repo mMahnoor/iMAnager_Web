@@ -1,0 +1,68 @@
+body, html {
+    height:100%;
+    }
+    
+    
+    .main{
+       background-image: url("images/bg4.png");
+       height: 100vh;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       
+     }
+
+     /* Height for devices larger than 576px */
+     @media (min-width: 992px) {
+       .main{
+         margin-top: -58.59px;
+       }
+     }
+
+.search{
+  height:40px;
+  width:60%;
+  border-radius: 50px;
+  outline: none;
+  margin-right: -35px;
+  border: 2px solid crimson;
+}
+
+.btn1{
+  height: 40px;
+  width: 40%;
+  border: none;
+  outline: none;
+  background: crimson;
+  color:whitesmoke;
+  border-radius: 60px;
+  font-weight: 700;
+
+}
+.main h5{
+  font-size: 2rem;
+  width: 80%;
+  margin-left: 40px;
+  border-radius: 60px;
+  margin-top: 100px;
+  
+  color: whitesmoke;
+  background-color: crimson;
+}
+.main h6{
+  font-size: 1.5rem;
+  width: 60%;
+  margin-left: 140px;
+  border-radius: 40px;
+  /* margin-top: 5px; */
+  
+  color: whitesmoke;
+  background-color: crimson;
+
+}
+.shop{
+  font-family: sans-serif;
+}
+.shop h5{
+  color: crimson;
+}

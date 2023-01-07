@@ -24,7 +24,7 @@
                         </div>
                         <div class="mt-3">
                             <button class="btn btn-outline-Dark btn-lg m-1" style="opacity:1" >
-                                <span style="color:Crimson"> Sign in</span>
+                            <a href="home.php" style="text-decoration:none">  <span style="color:Crimson"> Sign in</span></a>
                             </button>
 
                         </div>
