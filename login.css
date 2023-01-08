@@ -13,11 +13,16 @@
         
       }
 
-      /* Height for devices larger than 576px */
+      /* /* Height for devices larger than 576px  */
       @media (min-width: 992px) {
         #intro {
           margin-top: -58.59px;
         }
       }
-
-    
+      /* body{
+        background: url('images/welcome.jpeg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;}
+     */

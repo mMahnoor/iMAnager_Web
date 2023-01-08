@@ -1,4 +1,7 @@
 <?php
+include "navbar.php"
+// $mysqli=new $mysqli('localhost','root','','image')or die($mysqli->connect_error);
+// $table='img';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +16,7 @@
 <body>
 
 <!-- start navbar -->
-<nav  class="navbar navbar-expand-lg navbar-light bg-light ">
+<!-- <nav  class="navbar navbar-expand-lg navbar-light bg-light ">
  
 
   <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
@@ -54,7 +57,7 @@
     </form>
     
   </div>
-</nav>
+</nav> -->
 <!-- end navbar -->
 
 <!-- home image -->
@@ -263,7 +266,7 @@
 <!--End Explore Our Store -->
 
 <!-- Footer -->
-
+<!-- 
     <footer>
         <div class="row mt-5 ml-5 mr-5 pl-5 pr-5 pt-5">
             <div class="col m-2 p-3">
@@ -300,8 +303,8 @@
             </div>
         </div>
 
-    </footer>
-
+    </footer> -->
+<!-- end footer -->
 
 
 
@@ -309,3 +312,4 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>
+<?php include "footer.php"?>

@@ -1,0 +1,26 @@
+body, html {
+    height:100%;
+    background-color:beige;
+    
+    }
+    
+.memobg{
+    
+    background-image: url("images/memo1.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+}
+/* .stockbg{
+    
+    background-image: url("images/stock1.jpeg");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+} */

@@ -1,5 +1,5 @@
 
-     body, html {
+     /* body, html {
         height:100%;
         }
         
@@ -13,12 +13,18 @@
            
          }
    
-         /* Height for devices larger than 576px */
+         /* Height for devices larger than 576px 
          @media (min-width: 992px) {
            #bg {
              margin-top: -58.59px;
            }
-         }
+         } */
+         body{
+          background: url('images/registration.jpg') no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+          -o-background-size: cover;}
 
 
 

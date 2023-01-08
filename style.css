@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.hr{
+    width: 25%;
+    border: none;
+    height: 2px;
+    background-color: #E7CC98;
+    float: left;
+}
+/* navbar */
+.btn1{
+    height: 40px;
+    width: 40%;
+    border: none;
+    outline: none;
+    background: crimson;
+    color:whitesmoke;
+    border-radius: 60px;
+    font-weight: 700;
+  
+  }
+.search{
+    height:40px;
+    width:60%;
+    border-radius: 50px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid crimson;
+  }
+  
+/* Memo page */
+.memo-image{
+    background-image: url("../images/bg4.png");
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+  
+   
+    
+}
+.memo-table-height{
+    min-height: 30rem;
+   
+}
+.memo-table-input{
+    background-color: transparent;
+    border-radius: 5px;
+    border-color:rgba(167, 160, 160, 0.92) ;
+}
+
+
+.action_container{
+    cursor: pointer;
+}
+@media print{
+    
+    .noprint {
+        visibility: hidden;
+     }
+}
+/* Ordered list page */
+.main-section{
+    width: 100%;
+    background: linear-gradient(90deg, #d6ab98 0%, rgba(20, 10, 6, 0.4) 100%),url('../images/sofa1.jpg');
+    height: 100vh;
+    background-size: contain;
+}
+/* footer */
+.footer{
+   
+    width: 100%;
+    background-color: #5C5B55;
+    color: #D7DBDA;
+   
+    margin: auto;
+    
+}
+
+/* body, html {
+    height:100%;
+    } */
+    
+/* .memobg{
+    
+    background-image: url("images/memo.jpeg");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+} */

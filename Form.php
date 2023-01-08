@@ -8,7 +8,7 @@
  
     </head>
     <body>
-        <div id="bg" >
+        <div  >
         <div class="container" class="bg-image shadow-2-strong">
             <div class="row">
                 <div class="col-4">
